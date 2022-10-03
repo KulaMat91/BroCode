@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("What is your name?");
-        String name= scanner.nextLine();
+        String name = scanner.nextLine();
         System.out.println("How old are you?");
         int age = scanner.nextInt();
         scanner.nextLine();// trzeba dodac aby wyczyścić skannera
