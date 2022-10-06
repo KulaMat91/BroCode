@@ -17,6 +17,7 @@ public class Main {
         produceList.add("tomatoes");
         produceList.add("zucchini");
         produceList.add("peppers");
+        System.out.println(produceList);
 
 
         ArrayList<String> drinkList = new ArrayList<>();
