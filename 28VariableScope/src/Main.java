@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
         //local =  declared inside a method
@@ -8,5 +10,6 @@ public class Main {
         DiceRoller diceRoller = new DiceRoller();
 
 //        diceRoller.roll();
+
     }
 }
