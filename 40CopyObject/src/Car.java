@@ -50,5 +50,4 @@ public class Car {
         this.setModel(x.getModel());
         this.setYear(x.getYear());
     }
-
 }
