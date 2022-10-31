@@ -16,13 +16,10 @@ public class Main {
         } else if (choice == 2) {
             animal = new Cat();
             animal.speak();
-        }
-        else {
+        } else {
             animal = new Animal();
             System.out.println("That choice was invalid! ");
             animal.speak();
         }
-
-
     }
 }
