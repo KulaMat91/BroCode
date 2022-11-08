@@ -9,7 +9,7 @@ public class Car {
         this.year = year;
     }
 
-        Car(Car x){
+    Car(Car x) {
         this.copy(x);
     }
 //    Car(Car y) {
@@ -20,6 +20,7 @@ public class Car {
 ////        this.setMake(y.getMake());
 ////        this.setYear(y.getYear());
 //    }
+
 
     public String getMake() {
         return make;

@@ -9,10 +9,10 @@ public class Main {
         // when read() returns -1, there is no more data to be read
 
         try {
-            FileReader reader =new FileReader("C:\\KURS JAVA\\JAVA\\BroCode\\47FileReader\\src\\art.txt");
+            FileReader reader = new FileReader("C:\\KURS JAVA\\JAVA\\BroCode\\47FileReader\\src\\art.txt");
             int data = reader.read();
-            while (data != -1){
-                System.out.print((char)data);
+            while (data != -1) {
+                System.out.print((char) data);
                 data = reader.read();
             }
             reader.close();
