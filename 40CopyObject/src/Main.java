@@ -24,5 +24,16 @@ public class Main {
         System.out.println(car3.getMake());
         System.out.println(car3.getModel());
         System.out.println(car3.getYear());
+
+        System.out.println("/////////////////////////////////////////");
+
+
+        Person person1 = new Person("Mat", "Kula",18);
+
+        Person person2 = new Person(person1);
+
+        System.out.println(person1);
+        System.out.println(person2);
+
     }
 }

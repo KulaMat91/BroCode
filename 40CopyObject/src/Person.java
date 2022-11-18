@@ -10,7 +10,12 @@ public class Person {
     }
 
     public Person(Person person){
-        this.name = getName();
+        this.name = person.getName();
+        this.surname = person.getSurname();
+        this.age = person.getAge();
+//        this.setName(person.getName());
+//        this.setSurname(person.getSurname());
+//        this.setAge(person.getAge());
     }
 
     public void setName(String name) {
